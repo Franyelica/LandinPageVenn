@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: auto;
+}
+.seccion1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Grupo\ 9213.webp) no-repeat;
+    background-size: 100% ;
+}
+#logo{
+    margin-top: auto;
+}
+    
+    h1{
+        font-family: 'Hind', sans-serif;
+        text-align: center;
+        color: rgba(7, 8, 53, 0.856);
+        flex-wrap: nowrap;
+    }
+    #texto3{
+        font-size: 2rem;
+        font-weight:bold;
+        color: rgb(0, 119, 255);
+        font-family: 'Hind', sans-serif;
+        margin-top:-0.2rem;
+    }
+    .boton{
+        background-color: rgb(0, 119, 255);
+        padding: 1.5rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid rgb(0, 119, 255);
+        font-family: 'Hind', sans-serif;
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        transition-duration: 0.4s;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+        margin-bottom: 1rem;
+    }
+    .boton:hover{
+        background-color: white;
+        color: black;
+        border-color: rgb(0, 119, 255);
+    }
+
+.seccion2{
+    margin: auto;
+}
+.tarjeta{
+    display: grid;
+    width: 38rem;
+    height: 15rem;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: white;
+    border:1px solid rgba(179, 179, 179, 0.582);
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+    .profile{
+        width: fit-content;
+    }
+    .profile, img{
+        max-width: 237px;
+    }
+
+    #persona{
+        width: fit-content;
+    }
+    #nombre{
+        font-family: 'Hind', sans-serif;
+        color:rgba(7, 8, 53, 0.856);
+        font-weight: bold;
+        margin: 25px 0px 2px;
+        font-size: 2rem;
+        width: fit-content;
+    }
+    #dato{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 1rem;
+    }
+    #profesion{
+        font-family: 'Hind', sans-serif;
+        color: rgb(0, 119, 255);
+        font-weight: bold;
+        line-height: 32px;
+        font-size: 1rem;
+        margin: 0%;
+    }
+    #estrellas{
+        width: 10rem;
+    }
+    #descripcion{
+        
+        font-family: 'Hind', sans-serif;
+        color:rgba(7, 8, 53, 0.856);
+        font-weight: lighter;
+    }
+
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+h2{
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: 'Hind', sans-serif;
+        font-weight: bold;
+        color: rgba(7, 8, 53, 0.856);    
+}
+.productos{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    padding: 10px;
+}
+#sesiones{
+    border-radius: 15px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+    width: 17rem;
+    height: 25rem;
+    margin: 1rem;
+}
+#cursos{
+    border-radius: 15px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+    width: 17rem;
+    height: 25rem;
+    margin: 1rem;
+}
+#mentorias{
+    border-radius: 15px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+    width: 17rem;
+    height: 25rem;
+    margin: 1rem;
+}
+.titulos{
+        font-size: 1.5rem;
+        font-family: 'Hind', sans-serif;
+        font-weight: bold;
+        color: rgba(7, 8, 53, 0.856);
+}
+.parrafo{
+        font-size: 0.8rem;
+        font-family: 'Hind', sans-serif;
+        color: rgba(7, 8, 53, 0.856);
+}
+
+#botonII{
+        margin-top: 1rem;
+        align-self: center;
+        width: 14rem;
+        background-color: rgb(0, 119, 255);
+        padding: 1.5rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid rgb(0, 119, 255);
+        font-family: 'Hind', sans-serif;
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        transition-duration: 0.4s;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+#botonII:hover{
+        background-color: white;
+        color: black;
+        border-color: rgb(0, 119, 255);
+}
+.seccion4{
+    display:flex;
+    flex-direction: column;
+    max-width: 868px;
+    margin: auto;
+    text-align:center;
+    background: url(img/Rectángulo\ 8199.webp) no-repeat;
+    background-size: 80%;
+    background-position:center;
+    margin-top: 3rem;
+}
+    
+.seccion4 .pasos div{
+    display:block;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    
+}
+.pasos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding: 10px;
+    font-family: 'Hind', sans-serif;
+    color: rgb(83, 83, 83);
+
+}
+.pasos div:hover{
+        cursor: pointer;
+}
+.pasoI{
+    background: url(img/Grupo-7001.svg) no-repeat;
+}
+.pasoI:hover{
+    background: url(img/nuevo7023\ \(2\).svg);
+}
+
+.pasoII{
+    background: url(img/Grupo-7002.svg) no-repeat;
+}
+.pasoII:hover{
+    background: url(img/nuevo7025.svg);
+}
+
+.pasoIII{
+    background: url(img/Grupo-7003.svg);
+}
+.pasoIII:hover{
+    background: url(img/Grupo-7024-1\ \(2\).svg);
+}
+.boton3{
+    margin-top: 6rem;
+    align-self: center;
+    width: 14rem;
+    background-color: rgb(0, 119, 255);
+    padding: 1.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 119, 255);
+    font-family: 'Hind', sans-serif;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+.boton3:hover{
+    background-color: white;
+        color: black;
+        border-color: rgb(0, 119, 255);
+}
+.seccion5{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    background: url(img/Enmascarar\ grupo\ 259.webp) no-repeat;
+    background-size: 100%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+}
+#title{
+    margin-top: 9rem;
+}
+.columna1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+.tarjet{
+    background-color: white;
+    border: 0.5px solid rgba(219, 217, 217, 0.705);
+    width: 280px;
+    height: 130px;
+    max-width: 280px;
+    max-height: 130px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Hind', sans-serif;
+    color: rgba(7, 8, 53, 0.856);  
+}
+.tarjet:hover{
+    border: 0.5px solid rgb(2, 103, 255);
+}
+.columna2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+.columna3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+.boton4{
+    margin-top: 1rem;
+    align-self: center;
+    width: 14rem;
+    background-color: rgb(0, 119, 255);
+    padding: 1.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 119, 255);
+    font-family: 'Hind', sans-serif;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+.boton4:hover{
+    background-color: white;
+        color: black;
+        border-color: rgb(0, 119, 255);
+}
+.footer{
+    background-color: rgb(0, 119, 255);
+    margin-top: 8rem;
+}
+.container-footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.fila1{
+    display: grid;
+    grid-template-columns: 10fr repeat(6 , 1fr);
+    align-items: center;
+    justify-items: end;
+    padding-bottom: 20px;
+}
+#venn-logo{
+    justify-self: start;
+}
+.fila2{
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr 3fr 2fr;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-top: thin solid white;
+}
+.footer-text{
+    color: white;
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+    align-items: end;
+}
+@media screen and (min-width:300px) and (max-width:981px){
+    .seccion1{
+        background: url(img/Grupo\ 9213.webp) no-repeat;
+        background-size: 100% 100% ;
+    }
+    .seccion2{
+        margin-top: 8rem;
+    }
+    .tarjeta{
+        width: 20rem;
+        height: 30rem;
+        grid-template-columns: 1fr;
+        z-index: 1;
+    }
+    .profile, img{
+        margin-top: -60px;
+        z-index: 2;
+        max-width: 250px;
+        justify-self: center;
+    }
+    #persona{
+        width: fit-content;
+    }
+    .seccion3{
+        width: 19rem;
+    }
+    .productos{
+        display: grid;
+        grid: none;
+    }
+    #sesiones{
+        margin-bottom: 2rem;
+    }
+    #cursos{
+        margin-bottom: 2rem;
+    }
+    #mentorias{
+        margin-bottom: 2rem;
+    }
+    .seccion4{
+        padding: 10px;
+        max-width: 600px;
+        background: none;
+    }
+    .pasos{
+        display: grid;
+        grid: none;
+    }
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr;
+        width: 24rem;
+    }
+    .columna1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+    }
+    .columna2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+    }
+    .columna3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+    }
+    .tarjet{
+        width: 170px;
+        height: 120px;
+        max-width: 170px;
+        max-height: 120px;
+        margin-bottom: none;
+        font-size: 0.8rem;
+    }
+    .fila1{
+        grid-template-columns: repeat(6, 1fr);
+        row-gap: 35px;
+        justify-items: center;
+    }
+    #venn-logo{
+        display: inline;
+        margin: auto;
+        grid-column: 1/-1;
+    }
+    a{
+        grid-row: 2;
+    }
+    .fila2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    }
+    #politicas{
+        grid-row: 1;
+    }
+    #terminos{
+        grid-row: 2;
+    }
+    #venn{
+        grid-row: 3;
+    }
+}
